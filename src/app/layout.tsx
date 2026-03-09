@@ -6,6 +6,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Nunito } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google";
 
 
 
@@ -14,8 +15,15 @@ export const metadata: Metadata = {
   description: 'Experience artisan specialty coffee at BrewHaven. Ethically sourced, freshly roasted blends. Visit our café or subscribe for home delivery.',
 };
 
-const nunito = Nunito({
-  variable: "--font-nunito",  subsets: ["latin"],
+
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libre-baskerville",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -26,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${nunito.variable} antialiased`}>
+        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
