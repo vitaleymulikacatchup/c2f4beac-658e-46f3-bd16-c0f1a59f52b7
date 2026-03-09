@@ -65,7 +65,7 @@ export default function BrewHavenPage() {
             { value: "50+", title: "Coffee Origins" },
             { value: "12,000+", title: "Cups Served Daily" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/coffee-machine-bar_23-2147798032.jpg"
+          imageSrc="http://img.b2bpic.net/premium-photo/coffee-with-coffee-beans_1254813-28447.jpg?id=234230137"
           imageAlt="Coffee roasting process"
           useInvertedBackground={false}
           mediaAnimation="slide-up"
