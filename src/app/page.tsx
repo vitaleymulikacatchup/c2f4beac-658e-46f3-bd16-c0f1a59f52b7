@@ -131,10 +131,10 @@ export default function BrewHavenPage() {
           buttons={[]}
           testimonials={[
             {
-              id: "1",              name: "Sarah Martinez",              handle: "@sarah_loves_coffee",              testimonial: "The quality of beans and the expertise of the baristas is unmatched. Every visit feels like coming home to a welcoming community.",              imageSrc: "http://img.b2bpic.net/free-photo/multiracial-group-friends-having-coffee-together_1139-1029.jpg",              imageAlt: "Sarah Martinez"
+              id: "1",              name: "Sarah Martinez",              handle: "@sarah_loves_coffee",              testimonial: "The quality of beans and the expertise of the baristas is unmatched. Every visit feels like coming home to a welcoming community.",              imageSrc: "http://img.b2bpic.net/free-photo/multiracial-group-friends-having-coffee-together_1139-1029.jpg?_wi=1",              imageAlt: "Sarah Martinez"
             },
             {
-              id: "2",              name: "James Chen",              handle: "@morning_brew_enthusiast",              testimonial: "I've tried specialty coffee shops across the city, but BrewHaven consistently delivers the best pour-over experience.",              imageSrc: "http://img.b2bpic.net/free-photo/person-drinking-coffee-spacious-cafeteria_23-2150424050.jpg",              imageAlt: "James Chen"
+              id: "2",              name: "James Chen",              handle: "@morning_brew_enthusiast",              testimonial: "I've tried specialty coffee shops across the city, but BrewHaven consistently delivers the best pour-over experience.",              imageSrc: "http://img.b2bpic.net/free-photo/person-drinking-coffee-spacious-cafeteria_23-2150424050.jpg?_wi=1",              imageAlt: "James Chen"
             },
             {
               id: "3",              name: "Emily Rodriguez",              handle: "@emily_coffee_wanderer",              testimonial: "Their commitment to fair trade and sustainability matters to me. I feel good about where my coffee comes from.",              imageSrc: "http://img.b2bpic.net/free-photo/handsome-man-holding-cup-with-coffee-pub_23-2148448941.jpg",              imageAlt: "Emily Rodriguez"
@@ -143,10 +143,10 @@ export default function BrewHavenPage() {
               id: "4",              name: "Michael Thompson",              handle: "@thrifty_coffee_lover",              testimonial: "BrewHaven's subscription service is a game-changer. Fresh roasted beans delivered monthly, and the savings are incredible.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-woman-smiling_23-2148665396.jpg",              imageAlt: "Michael Thompson"
             },
             {
-              id: "5",              name: "Jessica Lee",              handle: "@cafe_culture_addict",              testimonial: "The atmosphere here invites creativity and connection. I've started my best projects with a cup of their Ethiopian Yirgacheffe.",              imageSrc: "http://img.b2bpic.net/free-photo/multiracial-group-friends-having-coffee-together_1139-1029.jpg",              imageAlt: "Jessica Lee"
+              id: "5",              name: "Jessica Lee",              handle: "@cafe_culture_addict",              testimonial: "The atmosphere here invites creativity and connection. I've started my best projects with a cup of their Ethiopian Yirgacheffe.",              imageSrc: "http://img.b2bpic.net/free-photo/multiracial-group-friends-having-coffee-together_1139-1029.jpg?_wi=2",              imageAlt: "Jessica Lee"
             },
             {
-              id: "6",              name: "David Kim",              handle: "@coffee_connoisseur_dk",              testimonial: "Exceptional beans, exceptional service, and exceptional people. This is what specialty coffee should be.",              imageSrc: "http://img.b2bpic.net/free-photo/person-drinking-coffee-spacious-cafeteria_23-2150424050.jpg",              imageAlt: "David Kim"
+              id: "6",              name: "David Kim",              handle: "@coffee_connoisseur_dk",              testimonial: "Exceptional beans, exceptional service, and exceptional people. This is what specialty coffee should be.",              imageSrc: "http://img.b2bpic.net/free-photo/person-drinking-coffee-spacious-cafeteria_23-2150424050.jpg?_wi=2",              imageAlt: "David Kim"
             }
           ]}
           speed={40}
